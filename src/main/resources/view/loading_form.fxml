@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="461.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.chat_appliaction.controller.LoadingFormController">
+   <children>
+      <Rectangle fx:id="mainProgressBar" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="14.0" layoutX="42.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Rectangle fx:id="subPrograssBar" arcHeight="5.0" arcWidth="5.0" fill="#202122" height="14.0" layoutX="42.0" layoutY="382.0" stroke="BLACK" strokeType="INSIDE" width="17.0" />
+      <Label layoutX="96.0" layoutY="365.0" prefHeight="17.0" prefWidth="52.0" text="Loading" />
+      <Label fx:id="lbrProgress" layoutX="148.0" layoutY="365.0" prefHeight="17.0" prefWidth="52.0" text="25%" />
+   </children>
+</AnchorPane>
